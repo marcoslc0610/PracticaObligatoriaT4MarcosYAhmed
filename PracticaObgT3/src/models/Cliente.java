@@ -3,30 +3,37 @@ package models;
 public class Cliente {
 
     //Atributos
-    private String email;
+    private Persona persona;
     private String contrasena;
-    private String nombre;
-    private String direccion;
-    private Pedido pedido1; //Primer pedido
-    private Pedido pedido2; //Segundo pedido
+    private Pedido pedido1 = null;
+    private Pedido pedido2 = null;
 
     //Constructor
-    public Cliente(String email, String contrasena, String nombre, String direccion, Pedido pedido1, Pedido pedido2) {
-        this.email = email;
+    public Cliente(Persona persona, String contrasena) {
+        this.persona = persona;
         this.contrasena = contrasena;
-        this.nombre = nombre;
-        this.direccion = direccion;
+    }
+
+    // Constructor
+    public Cliente() {
+        this.pedido1 = new Pedido();
+        this.pedido2 = new Pedido();
+    }
+
+    public Cliente(Persona persona, String contrasena, Pedido pedido1, Pedido pedido2) {
+        this.persona = persona;
+        this.contrasena = contrasena;
         this.pedido1 = pedido1;
         this.pedido2 = pedido2;
     }
 
     //Getters y Setters
-    public String getEmail() {
-        return email;
+    public Persona getPersona() {
+        return persona;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPersona(Persona persona) {
+        this.persona = persona;
     }
 
     public String getContrasena() {
@@ -35,22 +42,6 @@ public class Cliente {
 
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
     }
 
     public Pedido getPedido1() {
@@ -69,26 +60,17 @@ public class Cliente {
         this.pedido2 = pedido2;
     }
 
-    //Otros metodos
-    public boolean agregarPedido(Pedido pedido) {
-        if (pedido1 == null) {
-            pedido1 = pedido;
-            return true;
-        }
-        if (pedido2 == null) {
-            pedido2 = pedido;
-            return true;
-        }
-        return false;
-    }
-
     //toString
     @Override
     public String toString() {
-        return "Cliente: " + nombre + "\n" +
-                "Email: " + email + "\n" +
-                "Dirección: " + direccion + "\n" +
-                "Pedido 1: " + (pedido1 != null ? pedido1.toString() : "No asignado") + "\n" +
-                "Pedido 2: " + (pedido2 != null ? pedido2.toString() : "No asignado");
+        return "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓" + "\n" +
+                "  ➤ Cliente: " + persona.getNombre() + "\n" +
+                "  ➤ Email: " + persona.getEmail() + "\n" +
+                "  ➤ Localidad: " + persona.getLocalidad() + "\n" +
+                "  ➤ Dirección: " + persona.getDireccion() + "\n" +
+                "  ➤ Teléfono: " + persona.getTelefono() + "\n" +
+                "  ➤ Pedido 1: " + (getPedido1() != null ? pedido1.pintaPedido() : "Pedido no realizado") + "\n" +
+                "  ➤ Pedido 2: " + (getPedido2() != null ? pedido2.pintaPedido() : "Pedido no realizado") + "\n" +
+                "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛";
     }
 }
