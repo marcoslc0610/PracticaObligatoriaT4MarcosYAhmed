@@ -32,6 +32,7 @@ El administrador al registrarse el usuario será "carlos@gmail.com" y la contras
 ![eb07fefe-59b1-4ffa-92f0-48e2b83ece91](https://github.com/user-attachments/assets/29625480-ae70-4a46-b54e-93e6dfd2675f)
 
 ### 2
+![b66cbc43-47e6-4211-9db1-ae0de4fd4c72](https://github.com/user-attachments/assets/d4ad852b-f632-4ff7-9913-b76dbaa0eed8)
 
 ### 3
 ![47c22855-72a3-40dd-b9a9-37553553b57c](https://github.com/user-attachments/assets/8015b1a2-2019-41f0-93cc-952550b4a61e)
