@@ -28,49 +28,62 @@ Al iniciar sesión nos pedirá registrarnos o iniciar sesión, si tenemos un usu
 El administrador al registrarse el usuario será "carlos@gmail.com" y la contraseña "admin"
 ![Captura de pantalla 2025-01-30 224809](https://github.com/user-attachments/assets/eb53ef3a-afa6-479a-a586-5e845fb55e6c)
 ### 1
+Al pulsar esta opcion nos saldrán todos los pedidos, al introducir el email de un trabajador nos permitirá asiganar dicho pedido a ese trabajador
 ![925eec98-59ae-4d28-bd45-14878b1e9ff1](https://github.com/user-attachments/assets/23900a96-165b-4f2f-8b52-6fa156a75835)
 ![eb07fefe-59b1-4ffa-92f0-48e2b83ece91](https://github.com/user-attachments/assets/29625480-ae70-4a46-b54e-93e6dfd2675f)
 
 ### 2
+Tendremos que introducir el id generado aleatoriamente después a través del menú se podrá cambiar el estado del pedido, con opción de poner un comentario o no
 ![b66cbc43-47e6-4211-9db1-ae0de4fd4c72](https://github.com/user-attachments/assets/d4ad852b-f632-4ff7-9913-b76dbaa0eed8)
 
 ### 3
+Para esta opción habrá que introducir toda la informacion de un trabajador para poder darlo de alta
 ![47c22855-72a3-40dd-b9a9-37553553b57c](https://github.com/user-attachments/assets/8015b1a2-2019-41f0-93cc-952550b4a61e)
 
 ### 4
+Aquí se podrán ver todos los pedidos realizados
 ![913800a3-1672-49ce-95bb-bdc746b6a723](https://github.com/user-attachments/assets/387b2a55-1c65-4289-bb5b-3830517514ba)
 
 ### 5
+Aquí se podrán ver todos los clientes
 ![Captura de pantalla 2025-01-30 234048](https://github.com/user-attachments/assets/b3b971ed-0155-495a-81c0-e6677a26aaa0)
 
 ### 6
+Se podrán ver todos los trabajadores con toda su información
 ![Captura de pantalla 2025-01-30 234109](https://github.com/user-attachments/assets/50fa1505-cd40-48ae-a4a6-daf34df09773)
 
 ## Trabajador
 Al iniciar sesión con un trabajador tendremos estas opciones disponibles
 
 ### 1
+Al iniciar sesión en la opción 1 se podra ver todos los pedidos que te han sido asignador 
 ![Captura de pantalla 2025-01-30 221150](https://github.com/user-attachments/assets/6488fcba-cf7a-4255-b052-02d50e6f5a82)
 
 ### 2
+Como en la opción de administrador, modificar un estado de un pedido
 ![b66cbc43-47e6-4211-9db1-ae0de4fd4c72](https://github.com/user-attachments/assets/77a1c55a-7542-47ac-b22c-e57db3d60be3)
 
 ### 3
+Ver los productos que hay disponibles
 ![Captura de pantalla 2025-01-30 233013](https://github.com/user-attachments/assets/0e79d971-04d5-432a-9460-95934a437566)
 ![Captura de pantalla 2025-01-30 233042](https://github.com/user-attachments/assets/b523044a-7ec6-4c9f-9557-7983d0e11d59)
 
 ### 4
+Se podrá modificar los productos del catalogo 
 ![Captura de pantalla 2025-01-30 234431](https://github.com/user-attachments/assets/87a4fa38-e696-465a-9042-aa6678468f5b)
 
 ### 5
+Ver tu perfil y todos tus datos
 ![Captura de pantalla 2025-01-30 222600](https://github.com/user-attachments/assets/670c015f-f673-4e31-b566-7e6b97599133)
 
 ### 6
+Modificación de todos los datos del perfil
 ![Captura de pantalla 2025-01-30 232126](https://github.com/user-attachments/assets/61553abd-d63d-4416-b766-cd1754efe493)
 
 
 
 ## Cliente
+![Captura de pantalla 2025-01-31 083556](https://github.com/user-attachments/assets/c617ee47-d04c-4b12-8c73-3717d773ced9)
 
 ### 1
 ![Captura de pantalla 2025-01-30 233013](https://github.com/user-attachments/assets/0e79d971-04d5-432a-9460-95934a437566)
