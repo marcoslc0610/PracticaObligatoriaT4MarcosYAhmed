@@ -53,8 +53,6 @@ Se podrán ver todos los trabajadores con toda su información
 ![Captura de pantalla 2025-01-30 234109](https://github.com/user-attachments/assets/50fa1505-cd40-48ae-a4a6-daf34df09773)
 
 ## Trabajador
-Al iniciar sesión con un trabajador tendremos estas opciones disponibles
-
 ### 1
 Al iniciar sesión en la opción 1 se podra ver todos los pedidos que te han sido asignador 
 ![Captura de pantalla 2025-01-30 221150](https://github.com/user-attachments/assets/6488fcba-cf7a-4255-b052-02d50e6f5a82)
